@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    height: 100vh;
+}
+
+main {
+    width: 42rem;
+    height: 42rem;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+    padding: 48px 64px 64px 64px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+
+    animation-name: loadPage;
+    animation-duration: 1.5s;
+    transition: linear; 
+    
+    
+}
+
+h1 {
+    color: #34355B;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #34355B;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main img {
+    width: 248.842px;
+    height: 191.79px; 
+}
+
+.hide {
+    display: none;
+}
+
+.biscoitoUnlocked {
+    width: 42rem;
+    height: 56rem;
+    
+
+
+}
+
+.biscoitoUnlocked img {
+    width: 30rem;
+    height: 11rem;
+
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    
+
+}
+
+.biscoitoUnlocked p {
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    padding: 10px;
+
+    color: #000;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+
+}
+
+button {
+    width: 16rem;
+    height: 5.2rem;
+    border-style: none;
+
+    border-radius: 4px;
+    background: #FF9500;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+    cursor: pointer;
+}
+
+button:hover {
+    background: #dd8812;
+    animation:linear;
+    
+    
+}
+
+.contentUnlocked {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    
+
+    padding: 4.8rem 6.4rem;
+    background-color: #FFF;
+    
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+
+}
+
+main img {
+    width: 20rem;
+    height: 20rem;
+    margin-right: 25px;
+
+}
+
+main img:hover {
+    animation: shakeY 2s infinite;
+    cursor: pointer;
+
+}
+
+@keyframes loadPage {
+    0% {
+        transform:translateY(80vh);   
+    }
+
+
+}

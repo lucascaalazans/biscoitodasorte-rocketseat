@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Dancing+Script&family=Montserrat:wght@400;700&family=Mulish:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+  />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Biscoito da Sorte</title>
+</head>
+<body>
+    <main class="biscoitoLocked">
+        <h1>Qual é a sua sorte de hoje?</h1>
+        <p>Abra o biscoito e descubra!</p>
+        <img id="biscoitoLocked" src="./assets/biscoito-locked.svg" alt="Biscoito da sorte">
+    </main>
+
+    <div class="biscoitoUnlocked hide">
+        <div class="contentUnlocked">
+            <h1>Aqui está a sua sorte de hoje:</h1>
+            <p id="frasesMotivacionais" class="hide">Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</p>
+            <p id="frasesMotivacionais" class="hide">Não importa que você vá devagar, contanto que você não pare.</p>
+            <p id="frasesMotivacionais" class="hide">Os sonhos são a melhor forma de termos uma direção na vida e um motivo para caminhar.</p>
+            <p id="frasesMotivacionais" class="hide" >Os dias difíceis são a forma mais rápida de aprendermos a apreciar os bons.</p>
+            <p id="frasesMotivacionais" class="hide">A inspiração existe, porém temos que encontrá-la trabalhando.</p>
+            <img src="./assets/biscoito-2.svg" alt="">
+            <form>
+                <button id="btnReset">Abrir outro biscoito</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
